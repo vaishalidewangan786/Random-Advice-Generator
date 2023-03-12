@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Live Site URL: [Click Here](https://vaishalidewangan786.github.io/Random-Advice-Generator/)
 
 ## My process
 
@@ -90,8 +90,8 @@ I am looking forward to add letter changing effect on the advice slip alongwith 
 
 ## Author
 
-- Github - [Shivam Kumar](https://github.com/vaishalidewangan786)
-- LinkedIn - [@shivam-kumar-9575a7227](https://www.linkedin.com/in/vaishali-dewangan-2060721a5/)
+- Github - [Vaishali Dewangan](https://github.com/vaishalidewangan786)
+- LinkedIn - [@vaishali-dewangan-2060721a5](https://www.linkedin.com/in/vaishali-dewangan-2060721a5/)
 
 ## Acknowledgments
 
