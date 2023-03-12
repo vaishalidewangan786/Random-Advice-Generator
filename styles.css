@@ -1,0 +1,123 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    margin: 0;
+    padding: 0;
+    color:hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+}
+main{
+    height: 96vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: hsl(217, 19%, 24%);
+    display: inline-flex;
+    width: 27em;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+.advice-text{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 39px;
+}
+.advice-num-text{
+    color:hsl(150, 100%, 66%);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+.advice-num{
+    color:hsl(150, 100%, 66%)
+}
+.divider img{
+    display: inline-block;
+    width: 27em;
+}
+.divider #divider-desktop{
+    display: relative;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.wrapper-btn{
+    background-color: hsl(150, 100%, 66%);
+    padding: 12px; 
+    width: 40px;
+    height: 40px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.wrapper-btn:hover{
+    animation-name: glowbtn;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transform: rotateZ(180deg);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+@keyframes rotatedice {
+    0%{
+        transform: translateZ(0deg);
+    }
+    20%{
+        tranform: rotateZ(50deg);
+    }
+    80%{
+        transform: rotateZ(-50deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+@keyframes glowbtn{
+    0%{
+        box-shadow: hsl(150, 100%, 66%) 0px 0px 5px 0px;
+    }
+    50%{
+        box-shadow: hsl(150, 100%, 66%) 0px 0px 17px 0px;
+    }
+    100%{
+        box-shadow: hsl(150, 100%, 66%) 0px 0px 20px 0px;
+    }
+}
+.shuffle-btn{
+    position: relative;
+    top: -30px;
+}
+
+@media screen and (max-width:525px){
+.card{
+    width: 80vw;
+}
+.divider img{
+    width: 80vw;
+}
+.advice-text{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.wrapper-btn{
+    width: 30px;
+    height: 30px;
+}
+}
+
+.attribution { font-size: 11px; text-align: center;  }
+.attribution a { color:white; text-decoration: none;}

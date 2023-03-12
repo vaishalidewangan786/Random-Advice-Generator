@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!--Favicons--> 
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/allfavicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/allfavicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/allfavicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/allfavicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/allfavicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/allfavicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/allfavicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/allfavicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/allfavicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./images/allfavicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/allfavicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/allfavicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/allfavicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/allfavicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--Stylesheet-->
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <!--Title-->
+  <title>Get Random Advices💬</title>
+</head>
+<body>
+  
+  <main>
+    <div class="card">
+      <div class="advice-card">
+        <p class="advice-num-text">Advice #<span id="advice-num">00</span></p>
+        <h1 class="advice-text" id="main-text">"Sit Tight! your advice is about to come here in any moment"</h1>
+      </div>
+      <div class="divider">
+        <img id="divider-desktop" src="./images/pattern-divider-desktop.svg" alt="divider">
+      </div>
+    </div>
+    <div class="shuffle-btn">
+      <submit><div class="wrapper-btn" id="btn" onclick="getAdvice(), rotatedice()"><img src="./images/icon-dice.svg" alt="dice-image"></div></submit>
+    </div>
+  </main>
+  <script src="./index.js" ></script>
+  <div class="attribution">
+    Coded by <a href="https://github.com/itsme-shivamkumar">Shivam</a> with ❤️.
+  </div>
+</body>
+</html>
